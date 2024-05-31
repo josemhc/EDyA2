@@ -3,6 +3,7 @@ import SeatMap from './Board';
 import './Reservation.css';
 
 const Reservation = () => {
+// eslint-disable-next-line no-unused-vars
     const [selectedSeats, setSelectedSeats] = useState([]);
 
     const handleSeatSelect = (seats) => {
